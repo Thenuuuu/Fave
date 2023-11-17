@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Title bar</description>
+   <name>TC_MovieApp_CC_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a96ea780-34a7-4496-b5c1-a18bf94dfafd</testCaseGuid>
+</TestCaseEntity>

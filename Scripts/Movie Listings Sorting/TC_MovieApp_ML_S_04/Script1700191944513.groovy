@@ -18,31 +18,31 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Open Movie Listing page'
-WebUI.callTestCase(findTestCase('TC_CinemaApp_ML_01'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Movie Listings Sorting/TC_MovieApp_ML_S_01'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Tap Sort button'
 Mobile.tap(findTestObject('MovieListing_sortings/movieListing_sortButton'), 0)
 
-'Tap Title'
-Mobile.tap(findTestObject('MovieListing_sortings/Title/sortBy -Title'), 0)
+'Tap Popularity'
+Mobile.tap(findTestObject('MovieListing_sortings/popularity/sortBy - Popularity'), 0)
 
 'Tap Accending button'
-Mobile.tap(findTestObject('MovieListing_sortings/Title/sortBy - Title accending and decending button'), 0)
+Mobile.tap(findTestObject('MovieListing_sortings/popularity/sortBy - Popularity accending and decending'), 0)
 
 'Wait until page load'
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 'Take Screenshot as Checkpoint'
-Mobile.takeScreenshotAsCheckpoint('Sort Title accending', [])
+Mobile.takeScreenshotAsCheckpoint('Sort Popoularity accending', [])
 
 'Tap Decending button'
-Mobile.tap(findTestObject('MovieListing_sortings/Title/sortBy - Title accending and decending button'), 0)
+Mobile.tap(findTestObject('MovieListing_sortings/popularity/sortBy - Popularity accending and decending'), 0)
 
 'Wait until page load'
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 'Take Screenshot as Checkpoint'
-Mobile.takeScreenshotAsCheckpoint('Sort Title decending', [])
+Mobile.takeScreenshotAsCheckpoint('Sort Popularity decending', [])
 
 'Close Application'
 Mobile.closeApplication()

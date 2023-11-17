@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Sort movie list by popularity in both accending and decending orders</description>
-   <name>TC_CinemaApp_ML_04</name>
+   <name>TC_MovieApp_ML_S_04</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>de86e174-733d-4f26-9404-343ca9b8d2a4</testCaseGuid>

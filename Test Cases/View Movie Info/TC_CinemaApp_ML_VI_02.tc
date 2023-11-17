@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Book now button</description>
+   <name>TC_CinemaApp_ML_VI_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9e98168-a184-4abb-998d-db45933fa296</testCaseGuid>
+</TestCaseEntity>

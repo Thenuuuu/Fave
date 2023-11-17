@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Movie Info,,View random movie info from the listing,,2023-11-17 11:12:41,2023-11-17 11:13:53,1m - 12.052s,PASSED
+,,,,,,,
+Test Cases/View Movie Info/TC_CinemaApp_ML_VI_02,,Book now button,,2023-11-17 11:12:41,2023-11-17 11:13:53,1m - 11.683s,PASSED
+"startApplication(""C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk"", true)",,View Movie Listings,,2023-11-17 11:12:42,2023-11-17 11:13:10,28.271s,PASSED
+"tap(findTestObject(""View Movie Info/First movie container""), 0)",,Tap the first movie in the listing,,2023-11-17 11:13:10,2023-11-17 11:13:12,1.297s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 11:13:12,2023-11-17 11:13:14,2.047s,PASSED
+"takeScreenshotAsCheckpoint(""View Movie Info"", STOP_ON_FAILURE)",,Take Screenshot as Checkpoint,,2023-11-17 11:13:14,2023-11-17 11:13:16,1.970s,PASSED
+"tap(findTestObject(""View Movie Info/BOOK THE MOVIE button""), 0)",,Click book the movie button,,2023-11-17 11:13:16,2023-11-17 11:13:16,0.563s,PASSED
+"tap(findTestObject(""View Movie Info/Book the movie - back button""), 0)",,Click Back button,,2023-11-17 11:13:16,2023-11-17 11:13:18,1.719s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Tap Back button,,2023-11-17 11:13:18,2023-11-17 11:13:19,0.906s,PASSED
+"tap(findTestObject(""View Movie Info/Third movie container""), 0)",,Tap the third movie in the listing,,2023-11-17 11:13:19,2023-11-17 11:13:20,0.969s,PASSED
+"tap(findTestObject(""View Movie Info/BOOK THE MOVIE button""), 0)",,Click book the movie button,,2023-11-17 11:13:20,2023-11-17 11:13:21,1.251s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 11:13:21,2023-11-17 11:13:23,2.012s,PASSED
+"takeScreenshotAsCheckpoint(""Book the movie"", STOP_ON_FAILURE)",,Take Screenshot as Checkpoint,,2023-11-17 11:13:23,2023-11-17 11:13:25,1.652s,PASSED
+"tap(findTestObject(""View Movie Info/Book the movie - back button""), 0)",,Click Back button,,2023-11-17 11:13:25,2023-11-17 11:13:26,1.109s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Tap back button,,2023-11-17 11:13:26,2023-11-17 11:13:27,1.014s,PASSED
+"tap(findTestObject(""View Movie Info/Fifth movie container""), 0)",,Tap the fifth movie in the listing,,2023-11-17 11:13:27,2023-11-17 11:13:28,0.879s,PASSED
+"tap(findTestObject(""View Movie Info/BOOK THE MOVIE button""), 0)",,Click book the movie button,,2023-11-17 11:13:28,2023-11-17 11:13:29,1.347s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 11:13:29,2023-11-17 11:13:31,2.007s,PASSED
+"takeScreenshotAsCheckpoint(""Book the movie button"", STOP_ON_FAILURE)",,Take Screenshot as Checkpoint,,2023-11-17 11:13:31,2023-11-17 11:13:33,1.553s,PASSED
+"tap(findTestObject(""View Movie Info/Book the movie - back button""), 0)",,Click Back button,,2023-11-17 11:13:33,2023-11-17 11:13:34,1.156s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Click back button,,2023-11-17 11:13:34,2023-11-17 11:13:35,0.981s,PASSED
+"tap(findTestObject(""View Movie Info/Seventh movie container""), 0)",,Tap the seventh movie in the listing,,2023-11-17 11:13:35,2023-11-17 11:13:36,0.992s,PASSED
+"tap(findTestObject(""View Movie Info/BOOK THE MOVIE button""), 0)",,Click book the movie button,,2023-11-17 11:13:36,2023-11-17 11:13:37,1.412s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 11:13:37,2023-11-17 11:13:39,2.012s,PASSED
+"takeScreenshotAsCheckpoint(""Book the movie"", STOP_ON_FAILURE)",,Take Screenshot as Checkpoint,,2023-11-17 11:13:39,2023-11-17 11:13:41,1.612s,PASSED
+"tap(findTestObject(""View Movie Info/Book the movie - back button""), 0)",,Click Back button,,2023-11-17 11:13:41,2023-11-17 11:13:42,1.066s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Click back button,,2023-11-17 11:13:42,2023-11-17 11:13:43,0.995s,PASSED
+"tap(findTestObject(""View Movie Info/Ninth movie container""), 0)",,Tap the ninth movie in the listing,,2023-11-17 11:13:43,2023-11-17 11:13:44,0.894s,PASSED
+"tap(findTestObject(""View Movie Info/BOOK THE MOVIE button""), 0)",,Click book the movie button,,2023-11-17 11:13:44,2023-11-17 11:13:45,1.404s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 11:13:45,2023-11-17 11:13:47,2.002s,PASSED
+"takeScreenshotAsCheckpoint(""Book the movie"", STOP_ON_FAILURE)",,Take Screenshot as Checkpoint,,2023-11-17 11:13:47,2023-11-17 11:13:49,1.589s,PASSED
+"tap(findTestObject(""View Movie Info/Book the movie - back button""), 0)",,Click Back button,,2023-11-17 11:13:49,2023-11-17 11:13:50,1.098s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Click back button,,2023-11-17 11:13:50,2023-11-17 11:13:51,0.852s,PASSED
+closeApplication(),,Close Application,,2023-11-17 11:13:51,2023-11-17 11:13:53,2.230s,PASSED

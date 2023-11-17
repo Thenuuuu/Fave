@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Movie Info,,View random movie info from the listing,,2023-11-17 10:24:29,2023-11-17 10:24:30,1.316s,FAILED
+,,,,,,,
+Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01,,View Info,,2023-11-17 10:24:30,2023-11-17 10:24:30,0.032s,FAILED
+"startApplication(""C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk"", true)",,View Movie Listings,,2023-11-17 10:24:30,2023-11-17 10:24:30,0.016s,FAILED

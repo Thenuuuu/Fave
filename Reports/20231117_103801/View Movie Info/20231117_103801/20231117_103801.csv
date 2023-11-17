@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Movie Info,,View random movie info from the listing,,2023-11-17 10:38:09,2023-11-17 10:39:58,1m - 49.175s,FAILED
+,,,,,,,
+Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01,,View Info,,2023-11-17 10:39:34,2023-11-17 10:39:58,23.585s,FAILED
+"startApplication(""C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk"", true)",,View Movie Listings,,2023-11-17 10:39:34,2023-11-17 10:39:49,15.087s,PASSED
+"tap(findTestObject(""View Movie Info/First movie container""), 0)",,Tap the first movie in the listing,,2023-11-17 10:39:49,2023-11-17 10:39:51,1.085s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:39:51,2023-11-17 10:39:53,2.003s,PASSED
+"takeScreenshotAsCheckpoint(""View Movie Info"", [])",,Take Screenshot as Checkpoint,,2023-11-17 10:39:53,2023-11-17 10:39:54,1.891s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Tap Back button,,2023-11-17 10:39:54,2023-11-17 10:39:55,0.491s,PASSED
+"tap(findTestObject(""View Movie Info/Third movie container""), 0)",,Tap the third movie in the listing,,2023-11-17 10:39:55,2023-11-17 10:39:56,1.009s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:39:56,2023-11-17 10:39:58,2.002s,PASSED
+"takeAreaScreenshotAsCheckpoint(""View Movie Info"", findTestObject(null))",,Take Screenshot as Checkpoint,,2023-11-17 10:39:58,2023-11-17 10:39:58,0.004s,FAILED

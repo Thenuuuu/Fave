@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Movie Info,,View random movie info from the listing,,2023-11-17 10:25:40,2023-11-17 10:26:35,54.869s,PASSED
+,,,,,,,
+Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01,,View Info,,2023-11-17 10:25:40,2023-11-17 10:26:35,54.565s,PASSED
+"startApplication(""C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk"", true)",,View Movie Listings,,2023-11-17 10:25:41,2023-11-17 10:26:06,24.972s,PASSED
+"tap(findTestObject(""View Movie Info/First movie container""), 0)",,Tap the first movie in the listing,,2023-11-17 10:26:06,2023-11-17 10:26:07,1.407s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:26:07,2023-11-17 10:26:09,2.050s,PASSED
+"takeScreenshotAsCheckpoint(""View Movie Info"", [])",,Take Screenshot as Checkpoint,,2023-11-17 10:26:09,2023-11-17 10:26:11,2.166s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Tap Back button,,2023-11-17 10:26:11,2023-11-17 10:26:12,0.529s,PASSED
+"tap(findTestObject(""View Movie Info/Third movie container""), 0)",,Tap the third movie in the listing,,2023-11-17 10:26:12,2023-11-17 10:26:13,0.987s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:26:13,2023-11-17 10:26:15,2.015s,PASSED
+"takeScreenshotAsCheckpoint(""View Movie Info"", [])",,Take Screenshot as Checkpoint,,2023-11-17 10:26:15,2023-11-17 10:26:16,1.592s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Tap back button,,2023-11-17 10:26:16,2023-11-17 10:26:17,0.475s,PASSED
+"tap(findTestObject(""View Movie Info/Fifth movie container""), 0)",,Tap the fifth movie in the listing,,2023-11-17 10:26:17,2023-11-17 10:26:18,1.039s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:26:18,2023-11-17 10:26:20,2.013s,PASSED
+"takeScreenshotAsCheckpoint(""View Movie Info"", [])",,Take Screenshot as Checkpoint,,2023-11-17 10:26:20,2023-11-17 10:26:22,1.980s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Click back button,,2023-11-17 10:26:22,2023-11-17 10:26:22,0.516s,PASSED
+"tap(findTestObject(""View Movie Info/Seventh movie container""), 0)",,Tap the seventh movie in the listing,,2023-11-17 10:26:22,2023-11-17 10:26:23,1.029s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:26:23,2023-11-17 10:26:26,2.012s,PASSED
+"takeScreenshotAsCheckpoint(""View Movie Info"", [])",,Take Screenshot as Checkpoint,,2023-11-17 10:26:26,2023-11-17 10:26:27,1.527s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Click back button,,2023-11-17 10:26:27,2023-11-17 10:26:28,0.518s,PASSED
+"tap(findTestObject(""View Movie Info/Ninth movie container""), 0)",,Tap the ninth movie in the listing,,2023-11-17 10:26:28,2023-11-17 10:26:29,1.024s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:26:29,2023-11-17 10:26:31,2.014s,PASSED
+"takeScreenshotAsCheckpoint(""View Movie Info"", [])",,Take Screenshot as Checkpoint,,2023-11-17 10:26:31,2023-11-17 10:26:32,1.401s,PASSED
+"tap(findTestObject(""View Movie Info/Click Back button""), 0)",,Click back button,,2023-11-17 10:26:32,2023-11-17 10:26:32,0.493s,PASSED
+closeApplication(),,Close Application,,2023-11-17 10:26:32,2023-11-17 10:26:35,2.328s,PASSED

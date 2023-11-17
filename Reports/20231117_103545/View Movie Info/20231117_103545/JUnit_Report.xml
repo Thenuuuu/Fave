@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View Movie Info" time="87.785" tests="1" failures="0" errors="1">
+   <testsuite name="View Movie Info" tests="1" failures="0" errors="1" time="87.785" skipped="0" timestamp="2023-11-17 10:35:54" hostname="REG-LPT-173 - DESKTOP-DUPDD44" id="Test Suites/View Movie Info">
+      <properties>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231117_103545\\View Movie Info\\20231117_103545"/>
+         <property name="logFiles" value="C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231117_103545\\View Movie Info\\20231117_103545\\appium.log, C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231117_103545\\View Movie Info\\20231117_103545\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="REG-LPT-173 - DESKTOP-DUPDD44"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A725F"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R58R83Q043W"/>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01" time="17.864" classname="Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01" status="ERROR">
+         <error type="ERROR" message="Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshot() is applicable for argument types: (java.lang.String, java.util.ArrayList) values: [View Movie Info, []]
+Possible solutions: takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188545468.run(TempTestSuite1700188545468.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-17 10:37:04 - [TEST_CASE][ERROR] - Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshot() is applicable for argument types: (java.lang.String, java.util.ArrayList) values: [View Movie Info, []]
+Possible solutions: takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188545468.run(TempTestSuite1700188545468.groovy:36)
+
+
+2023-11-17 10:37:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-17 10:37:18 - [MESSAGE][PASSED] - Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-17 10:37:18 - [TEST_STEP][PASSED] - tap(findTestObject("View Movie Info/First movie container"), 0): Tapped on element 'Object Repository/View Movie Info/First movie container'
+
+2023-11-17 10:37:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-17 10:37:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/View Movie Info/First movie container'
+
+2023-11-17 10:37:20 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-11-17 10:37:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-17 10:37:22 - [TEST_STEP][ERROR] - takeAreaScreenshot("View Movie Info", []): Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshot() is applicable for argument types: (java.lang.String, java.util.ArrayList) values: [View Movie Info, []]
+Possible solutions: takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188545468.run(TempTestSuite1700188545468.groovy:36)
+
+
+2023-11-17 10:37:22 - [MESSAGE][ERROR] - Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshot() is applicable for argument types: (java.lang.String, java.util.ArrayList) values: [View Movie Info, []]
+Possible solutions: takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188545468.run(TempTestSuite1700188545468.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-17 10:37:04 - [TEST_CASE][ERROR] - Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshot() is applicable for argument types: (java.lang.String, java.util.ArrayList) values: [View Movie Info, []]
+Possible solutions: takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188545468.run(TempTestSuite1700188545468.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-17 10:35:54 - [TEST_SUITE][ERROR] - View Movie Info: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshot() is applicable for argument types: (java.lang.String, java.util.ArrayList) values: [View Movie Info, []]
+Possible solutions: takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188545468.run(TempTestSuite1700188545468.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-11-17 10:35:54 - [TEST_SUITE][ERROR] - View Movie Info: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshot() is applicable for argument types: (java.lang.String, java.util.ArrayList) values: [View Movie Info, []]
+Possible solutions: takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle), takeAreaScreenshot(org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, com.kms.katalon.core.model.FailureHandling), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List), takeAreaScreenshot(java.lang.String, org.openqa.selenium.Rectangle, java.util.List, com.kms.katalon.core.model.FailureHandling)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188545468.run(TempTestSuite1700188545468.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

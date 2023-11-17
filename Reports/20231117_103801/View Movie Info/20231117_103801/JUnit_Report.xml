@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View Movie Info" time="109.175" tests="1" failures="1" errors="0">
+   <testsuite name="View Movie Info" tests="1" failures="1" errors="0" time="109.175" skipped="0" timestamp="2023-11-17 10:38:09" hostname="REG-LPT-173 - DESKTOP-DUPDD44" id="Test Suites/View Movie Info">
+      <properties>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231117_103801\\View Movie Info\\20231117_103801"/>
+         <property name="logFiles" value="C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231117_103801\\View Movie Info\\20231117_103801\\appium.log, C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231117_103801\\View Movie Info\\20231117_103801\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-View Movie Info.png, keyes\keyes-View Movie Info.png, keyes\keyes-View Movie Info.png, keyes\keyes-View Movie Info.png"/>
+         <property name="hostName" value="REG-LPT-173 - DESKTOP-DUPDD44"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A725F"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R58R83Q043W"/>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01" time="23.585" classname="Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01" status="FAILED">
+         <failure type="FAILED" message="Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Captured area cannot be null
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:106)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshotAsCheckpoint(MobileBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeAreaScreenshotAsCheckpoint$2.call(Unknown Source)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188681588.run(TempTestSuite1700188681588.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-17 10:39:34 - [TEST_CASE][FAILED] - Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Captured area cannot be null
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:106)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshotAsCheckpoint(MobileBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeAreaScreenshotAsCheckpoint$2.call(Unknown Source)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188681588.run(TempTestSuite1700188681588.groovy:36)
+
+
+2023-11-17 10:39:34 - [TEST_STEP][PASSED] - startApplication("C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-17 10:39:49 - [MESSAGE][PASSED] - Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-17 10:39:49 - [TEST_STEP][PASSED] - tap(findTestObject("View Movie Info/First movie container"), 0): Tapped on element 'Object Repository/View Movie Info/First movie container'
+
+2023-11-17 10:39:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-17 10:39:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/View Movie Info/First movie container'
+
+2023-11-17 10:39:51 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-11-17 10:39:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-17 10:39:53 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("View Movie Info", []): Screenshot is taken
+
+2023-11-17 10:39:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-17 10:39:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-View Movie Info.png]]
+
+2023-11-17 10:39:54 - [TEST_STEP][PASSED] - tap(findTestObject("View Movie Info/Click Back button"), 0): Tapped on element 'Object Repository/View Movie Info/Click Back button'
+
+2023-11-17 10:39:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-17 10:39:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/View Movie Info/Click Back button'
+
+2023-11-17 10:39:55 - [TEST_STEP][PASSED] - tap(findTestObject("View Movie Info/Third movie container"), 0): Tapped on element 'Object Repository/View Movie Info/Third movie container'
+
+2023-11-17 10:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-17 10:39:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/View Movie Info/Third movie container'
+
+2023-11-17 10:39:56 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-11-17 10:39:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-17 10:39:58 - [TEST_STEP][FAILED] - takeAreaScreenshotAsCheckpoint("View Movie Info", findTestObject(null)): Unable to take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Captured area cannot be null
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:106)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshotAsCheckpoint(MobileBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeAreaScreenshotAsCheckpoint$2.call(Unknown Source)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188681588.run(TempTestSuite1700188681588.groovy:36)
+)
+
+2023-11-17 10:39:58 - [MESSAGE][WARNING] - Test object id is null
+
+2023-11-17 10:39:58 - [MESSAGE][FAILED] - Captured area cannot be null
+
+2023-11-17 10:39:58 - [MESSAGE][FAILED] - Unable to take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Captured area cannot be null
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:106)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshotAsCheckpoint(MobileBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeAreaScreenshotAsCheckpoint$2.call(Unknown Source)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188681588.run(TempTestSuite1700188681588.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2023-11-17 10:39:34 - [TEST_CASE][FAILED] - Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Captured area cannot be null
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:106)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshotAsCheckpoint(MobileBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeAreaScreenshotAsCheckpoint$2.call(Unknown Source)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188681588.run(TempTestSuite1700188681588.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-17 10:38:09 - [TEST_SUITE][FAILED] - View Movie Info: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Captured area cannot be null
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:106)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshotAsCheckpoint(MobileBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeAreaScreenshotAsCheckpoint$2.call(Unknown Source)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188681588.run(TempTestSuite1700188681588.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-11-17 10:38:09 - [TEST_SUITE][FAILED] - View Movie Info: Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Captured area cannot be null
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeAreaScreenshotKeyword.groovy:106)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword$_takeScreenshot_closure1.call(TakeAreaScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.takeScreenshot(TakeAreaScreenshotKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeAreaScreenshotKeyword.execute(TakeAreaScreenshotKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeAreaScreenshotAsCheckpoint(MobileBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeAreaScreenshotAsCheckpoint$2.call(Unknown Source)
+	at TC_CinemaApp_ML_VI_01.run(TC_CinemaApp_ML_VI_01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700188681588.run(TempTestSuite1700188681588.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

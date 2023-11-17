@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Movie Info,,View random movie info from the listing,,2023-11-17 10:35:54,2023-11-17 10:37:22,1m - 27.785s,ERROR
+,,,,,,,
+Test Cases/View Movie Info/TC_CinemaApp_ML_VI_01,,View Info,,2023-11-17 10:37:04,2023-11-17 10:37:22,17.864s,ERROR
+"startApplication(""C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk"", true)",,View Movie Listings,,2023-11-17 10:37:04,2023-11-17 10:37:18,14.193s,PASSED
+"tap(findTestObject(""View Movie Info/First movie container""), 0)",,Tap the first movie in the listing,,2023-11-17 10:37:18,2023-11-17 10:37:20,1.621s,PASSED
+"delay(2, STOP_ON_FAILURE)",,Wait until page load,,2023-11-17 10:37:20,2023-11-17 10:37:22,2.015s,PASSED
+"takeAreaScreenshot(""View Movie Info"", [])",,Take Screenshot as Checkpoint,,2023-11-17 10:37:22,2023-11-17 10:37:22,0.007s,ERROR

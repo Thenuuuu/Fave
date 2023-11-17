@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CinemaList_Sorting,,,,2023-11-16 16:29:55,2023-11-16 16:29:57,2.361s,FAILED
+,,,,,,,
+Test Cases/TC_CinemaApp_ML_02,,Sort movies by release date in both accending and decending orders,,2023-11-16 16:29:57,2023-11-16 16:29:57,0.159s,FAILED
+"callTestCase(findTestCase(""TC_CinemaApp_ML_01""), [:], STOP_ON_FAILURE)",,Open Cinema Listing Page,,2023-11-16 16:29:57,2023-11-16 16:29:57,0.114s,FAILED

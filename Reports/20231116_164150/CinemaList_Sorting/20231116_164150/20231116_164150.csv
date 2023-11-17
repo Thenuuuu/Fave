@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CinemaList_Sorting,,,,2023-11-16 16:41:59,2023-11-16 16:44:48,2m - 48.249s,FAILED
+,,,,,,,
+Test Cases/TC_CinemaApp_ML_02,,Sort movies by release date in both accending and decending orders,,2023-11-16 16:42:00,2023-11-16 16:42:45,45.618s,PASSED
+"callTestCase(findTestCase(""TC_CinemaApp_ML_01""), [:], STOP_ON_FAILURE)",,Open Movie Listing Page,,2023-11-16 16:42:00,2023-11-16 16:42:26,25.502s,PASSED
+"tap(findTestObject(""MovieListing_sortings/movieListing_sortButton""), 0)",,Tap Sort button,,2023-11-16 16:42:26,2023-11-16 16:42:27,1.528s,PASSED
+"tap(findTestObject(""MovieListing_sortings/release date/sortBy - Release date""), 0)",,Tap Release Date,,2023-11-16 16:42:27,2023-11-16 16:42:29,1.655s,PASSED
+"tap(findTestObject(""MovieListing_sortings/release date/sortBy - Release date accending and decending""), 0)",,Tap Accending button,,2023-11-16 16:42:29,2023-11-16 16:42:29,0.572s,PASSED
+"delay(4, STOP_ON_FAILURE)",,Wait until page load,,2023-11-16 16:42:29,2023-11-16 16:42:33,4.024s,PASSED
+"takeScreenshotAsCheckpoint(""Sort Release Date accending"", [])",,Take Screenshot as Checkpoint,,2023-11-16 16:42:33,2023-11-16 16:42:36,2.386s,PASSED
+"tap(findTestObject(""MovieListing_sortings/release date/sortBy - Release date accending and decending""), 0)",,Tap Decending button,,2023-11-16 16:42:36,2023-11-16 16:42:36,0.586s,PASSED
+"delay(4, STOP_ON_FAILURE)",,Wait until page load,,2023-11-16 16:42:36,2023-11-16 16:42:40,4.009s,PASSED
+"takeScreenshotAsCheckpoint(""Sort Release Date decending"", [])",,Take Screenshot as Checkpoint,,2023-11-16 16:42:40,2023-11-16 16:42:43,2.558s,PASSED
+closeApplication(),,Close Application,,2023-11-16 16:42:43,2023-11-16 16:42:45,2.341s,PASSED
+,,,,,,,
+Test Cases/TC_CinemaApp_ML_03,,Sort movie list by title in both accending and decending orders,,2023-11-16 16:43:44,2023-11-16 16:44:48,1m - 3.966s,FAILED
+"callTestCase(findTestCase(""TC_CinemaApp_ML_01""), [:], STOP_ON_FAILURE)",,Open Movie Listing page,,2023-11-16 16:43:44,2023-11-16 16:44:06,22.391s,PASSED
+"tap(findTestObject(""MovieListing_sortings/movieListing_sortButton""), 0)",,Tap Sort button,,2023-11-16 16:44:06,2023-11-16 16:44:07,1.230s,PASSED
+"tap(findTestObject(""MovieListing_sortings/Title/sortBy -Title""), 0)",,Tap Title,,2023-11-16 16:44:07,2023-11-16 16:44:09,1.721s,PASSED
+"tap(findTestObject(""MovieListing_sortings/Title/sortBy - Title accending and decending button""), 0)",,Tap Accending button,,2023-11-16 16:44:09,2023-11-16 16:44:10,0.582s,PASSED
+"delay(4, STOP_ON_FAILURE)",,Wait until page load,,2023-11-16 16:44:10,2023-11-16 16:44:14,4.014s,PASSED
+"takeScreenshotAsCheckpoint(""Sort Title accending"", [])",,Take Screenshot as Checkpoint,,2023-11-16 16:44:14,2023-11-16 16:44:16,2.583s,PASSED
+"tap(findTestObject(""MovieListing_sortings/movieListing_sortButton""), 0)",,Tap Decending button,,2023-11-16 16:44:16,2023-11-16 16:44:48,31.442s,FAILED

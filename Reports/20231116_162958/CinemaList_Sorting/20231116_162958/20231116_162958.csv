@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CinemaList_Sorting,,,,2023-11-16 16:30:08,2023-11-16 16:30:59,51.154s,FAILED
+,,,,,,,
+Test Cases/TC_CinemaApp_ML_02,,Sort movies by release date in both accending and decending orders,,2023-11-16 16:30:32,2023-11-16 16:30:59,26.411s,FAILED
+"callTestCase(findTestCase(""TC_CinemaApp_ML_01""), [:], STOP_ON_FAILURE)",,Open Cinema Listing Page,,2023-11-16 16:30:32,2023-11-16 16:30:54,22.055s,PASSED
+"tap(findTestObject(""MovieListing_sortings/movieListing_sortButton""), 0)",,Tap Sort button,,2023-11-16 16:30:54,2023-11-16 16:30:56,1.403s,PASSED
+"tap(findTestObject(""MovieListing_sortings/release date/sortBy - Release date""), 0)",,Tap Release Date,,2023-11-16 16:30:56,2023-11-16 16:30:58,1.701s,PASSED
+"tap(findTestObject(""MovieListing_sortings/release date/sortBy - Release date accending and decending""), 0)",,Tap Accending button,,2023-11-16 16:30:58,2023-11-16 16:30:58,0.567s,PASSED
+"waitForElementPresent(findTestObject(null), 4)",,,,2023-11-16 16:30:58,2023-11-16 16:30:59,0.662s,FAILED

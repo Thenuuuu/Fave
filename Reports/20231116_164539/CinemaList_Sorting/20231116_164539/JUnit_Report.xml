@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CinemaList_Sorting" time="176.997" tests="3" failures="0" errors="0">
+   <testsuite name="CinemaList_Sorting" tests="3" failures="0" errors="0" time="176.997" skipped="0" timestamp="2023-11-16 16:45:48" hostname="REG-LPT-173 - 172.17.11.226" id="Test Suites/CinemaList_Sorting">
+      <properties>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231116_164539\\CinemaList_Sorting\\20231116_164539"/>
+         <property name="logFiles" value="C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231116_164539\\CinemaList_Sorting\\20231116_164539\\appium.log, C:\\Users\\REG-LPT-173\\Katalon Studio\\Cinema App (FAVE)\\Reports\\20231116_164539\\CinemaList_Sorting\\20231116_164539\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Sort Release Date accending.png, keyes\keyes-Sort Release Date decending.png, keyes\keyes-Sort Title accending.png, keyes\keyes-Sort Title decending.png, keyes\keyes-Sort Popoularity accending.png, keyes\keyes-Sort Popularity decending.png"/>
+         <property name="hostName" value="REG-LPT-173 - 172.17.11.226"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A725F"/>
+         <property name="hostAddress" value="172.17.11.226"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R58R83Q043W"/>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC_CinemaApp_ML_02" time="38.365" classname="Test Cases/TC_CinemaApp_ML_02" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:45:49 - [TEST_CASE][PASSED] - Test Cases/TC_CinemaApp_ML_02: Test Cases/TC_CinemaApp_ML_02
+
+2023-11-16 16:45:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_CinemaApp_ML_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_CinemaApp_ML_01' successfully
+
+2023-11-16 16:45:49 - [TEST_CASE][PASSED] - Test Cases/TC_CinemaApp_ML_01: Test Cases/TC_CinemaApp_ML_01
+
+2023-11-16 16:45:50 - [TEST_STEP][PASSED] - startApplication("C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-16 16:45:50 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-16 16:45:52 - [MESSAGE][INFO] - Appium server started on port 59,312
+
+2023-11-16 16:46:08 - [MESSAGE][PASSED] - Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-16 16:46:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_CinemaApp_ML_01' successfully
+
+2023-11-16 16:46:08 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/movieListing_sortButton"), 0): Tapped on element 'Object Repository/MovieListing_sortings/movieListing_sortButton'
+
+2023-11-16 16:46:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:46:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/movieListing_sortButton'
+
+2023-11-16 16:46:10 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/release date/sortBy - Release date"), 0): Tapped on element 'Object Repository/MovieListing_sortings/release date/sortBy - Release date'
+
+2023-11-16 16:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:46:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/release date/sortBy - Release date'
+
+2023-11-16 16:46:10 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/release date/sortBy - Release date accending and decending"), 0): Tapped on element 'Object Repository/MovieListing_sortings/release date/sortBy - Release date accending and decending'
+
+2023-11-16 16:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:46:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/release date/sortBy - Release date accending and decending'
+
+2023-11-16 16:46:12 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-11-16 16:46:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-11-16 16:46:16 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sort Release Date accending", []): Screenshot is taken
+
+2023-11-16 16:46:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:46:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sort Release Date accending.png]]
+
+2023-11-16 16:46:18 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/release date/sortBy - Release date accending and decending"), 0): Tapped on element 'Object Repository/MovieListing_sortings/release date/sortBy - Release date accending and decending'
+
+2023-11-16 16:46:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:46:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/release date/sortBy - Release date accending and decending'
+
+2023-11-16 16:46:18 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-11-16 16:46:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-11-16 16:46:22 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sort Release Date decending", []): Screenshot is taken
+
+2023-11-16 16:46:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:46:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sort Release Date decending.png]]
+
+2023-11-16 16:46:25 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-16 16:46:27 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CinemaApp_ML_03" time="42.63" classname="Test Cases/TC_CinemaApp_ML_03" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:46:27 - [TEST_CASE][PASSED] - Test Cases/TC_CinemaApp_ML_03: Test Cases/TC_CinemaApp_ML_03
+
+2023-11-16 16:46:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_CinemaApp_ML_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_CinemaApp_ML_01' successfully
+
+2023-11-16 16:46:28 - [TEST_CASE][PASSED] - Test Cases/TC_CinemaApp_ML_01: Test Cases/TC_CinemaApp_ML_01
+
+2023-11-16 16:46:28 - [TEST_STEP][PASSED] - startApplication("C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-16 16:46:28 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-16 16:46:29 - [MESSAGE][INFO] - Appium server started on port 59,531
+
+2023-11-16 16:46:49 - [MESSAGE][PASSED] - Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-16 16:46:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_CinemaApp_ML_01' successfully
+
+2023-11-16 16:46:49 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/movieListing_sortButton"), 0): Tapped on element 'Object Repository/MovieListing_sortings/movieListing_sortButton'
+
+2023-11-16 16:46:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:46:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/movieListing_sortButton'
+
+2023-11-16 16:46:51 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/Title/sortBy -Title"), 0): Tapped on element 'Object Repository/MovieListing_sortings/Title/sortBy -Title'
+
+2023-11-16 16:46:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:46:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/Title/sortBy -Title'
+
+2023-11-16 16:46:52 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/Title/sortBy - Title accending and decending button"), 0): Tapped on element 'Object Repository/MovieListing_sortings/Title/sortBy - Title accending and decending button'
+
+2023-11-16 16:46:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:46:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/Title/sortBy - Title accending and decending button'
+
+2023-11-16 16:46:53 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-11-16 16:46:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-11-16 16:46:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sort Title accending", []): Screenshot is taken
+
+2023-11-16 16:46:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:47:00 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sort Title accending.png]]
+
+2023-11-16 16:47:00 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/Title/sortBy - Title accending and decending button"), 0): Tapped on element 'Object Repository/MovieListing_sortings/Title/sortBy - Title accending and decending button'
+
+2023-11-16 16:47:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:47:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/Title/sortBy - Title accending and decending button'
+
+2023-11-16 16:47:01 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-11-16 16:47:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-11-16 16:47:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sort Title decending", []): Screenshot is taken
+
+2023-11-16 16:47:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:47:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sort Title decending.png]]
+
+2023-11-16 16:47:08 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-16 16:47:10 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_CinemaApp_ML_04" time="95.699" classname="Test Cases/TC_CinemaApp_ML_04" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:47:10 - [TEST_CASE][PASSED] - Test Cases/TC_CinemaApp_ML_04: Test Cases/TC_CinemaApp_ML_04
+
+2023-11-16 16:47:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_CinemaApp_ML_01"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_CinemaApp_ML_01' successfully
+
+2023-11-16 16:47:10 - [TEST_CASE][PASSED] - Test Cases/TC_CinemaApp_ML_01: Test Cases/TC_CinemaApp_ML_01
+
+2023-11-16 16:47:10 - [TEST_STEP][PASSED] - startApplication("C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-16 16:47:10 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-16 16:47:12 - [MESSAGE][INFO] - Appium server started on port 59,741
+
+2023-11-16 16:47:25 - [MESSAGE][PASSED] - Started app at: 'C:\Users\REG-LPT-173\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-16 16:47:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_CinemaApp_ML_01' successfully
+
+2023-11-16 16:47:25 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/movieListing_sortButton"), 0): Tapped on element 'Object Repository/MovieListing_sortings/movieListing_sortButton'
+
+2023-11-16 16:47:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:47:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/movieListing_sortButton'
+
+2023-11-16 16:47:28 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/popularity/sortBy - Popularity"), 0): Tapped on element 'Object Repository/MovieListing_sortings/popularity/sortBy - Popularity'
+
+2023-11-16 16:47:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:47:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/popularity/sortBy - Popularity'
+
+2023-11-16 16:47:29 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/popularity/sortBy - Popularity accending and decending"), 0): Tapped on element 'Object Repository/MovieListing_sortings/popularity/sortBy - Popularity accending and decending'
+
+2023-11-16 16:47:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:47:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/popularity/sortBy - Popularity accending and decending'
+
+2023-11-16 16:47:59 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-11-16 16:48:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-11-16 16:48:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sort Popoularity accending", []): Screenshot is taken
+
+2023-11-16 16:48:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:48:07 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sort Popoularity accending.png]]
+
+2023-11-16 16:48:07 - [TEST_STEP][PASSED] - tap(findTestObject("MovieListing_sortings/popularity/sortBy - Popularity accending and decending"), 0): Tapped on element 'Object Repository/MovieListing_sortings/popularity/sortBy - Popularity accending and decending'
+
+2023-11-16 16:48:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:48:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MovieListing_sortings/popularity/sortBy - Popularity accending and decending'
+
+2023-11-16 16:48:37 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-11-16 16:48:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-11-16 16:48:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sort Popularity decending", []): Screenshot is taken
+
+2023-11-16 16:48:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:48:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sort Popularity decending.png]]
+
+2023-11-16 16:48:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-16 16:48:45 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-16 16:45:48 - [TEST_SUITE][PASSED] - CinemaList_Sorting: Test Cases/TC_CinemaApp_ML_04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

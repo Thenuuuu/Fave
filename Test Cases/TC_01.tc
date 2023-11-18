@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify user able to start the application</description>
-   <name>TC_01</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d75cb546-c20c-4b09-88b2-239df202742e</testCaseGuid>
-</TestCaseEntity>

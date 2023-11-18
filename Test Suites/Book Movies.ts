@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CinemaList_Sorting</name>
+   <name>Book Movies</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>db72a969-0d96-454e-95b2-a99befa60fd7</testSuiteGuid>
+   <testSuiteGuid>de28bd3f-e9c3-46e3-a339-99209002e153</testSuiteGuid>
    <testCaseLink>
-      <guid>be754e73-118e-45a6-b056-c3c51c719b8f</guid>
+      <guid>f0251251-5dc8-4a1f-881a-5fca457d8144</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order</testCaseId>
+      <testCaseId>Test Cases/Book movies/Book the highest popularity movie</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f41ce799-4e14-4de4-9f27-a763425a7ab3</guid>
+      <guid>87312675-ed84-4f7a-a5b8-95a00f244ea4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order</testCaseId>
+      <testCaseId>Test Cases/Book movies/Book the highest rated movie</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b0bcbcd-237c-486a-b7b4-9220c502ed0d</guid>
+      <guid>fa383851-eed8-4a53-b95e-c06d0c9d5b3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Movie Listings Sorting/Sort movie from highest popularity</testCaseId>
+      <testCaseId>Test Cases/Book movies/Book the latest released movie</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b3149869-0a83-4b1f-8152-a07f8c66c4e8</guid>
+      <guid>72ba37ed-e9ae-4919-9074-03abf2f790f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Movie Listings Sorting/Sort movie from latest release date</testCaseId>
+      <testCaseId>Test Cases/Book movies/Book the lowest popularity movie</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7cfd2668-7353-4884-b590-640e648aa5a5</guid>
+      <guid>a24fba02-80bc-4975-a14d-6d13eb049c3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Movie Listings Sorting/Sort movie from lowest popularity</testCaseId>
+      <testCaseId>Test Cases/Book movies/Book the lowest rated movie</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4d9b2e3c-ce9f-487d-94dd-a0402ec6b1f2</guid>
+      <guid>e5d5e903-bf1d-4688-bb70-613e04af636e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Movie Listings Sorting/Sort movies from oldest release date</testCaseId>
+      <testCaseId>Test Cases/Book movies/Book the oldest released movie</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

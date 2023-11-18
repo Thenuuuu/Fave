@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User able to view the movie info</description>
-   <name>TC_03</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e4c67e10-ba14-405a-83bc-523131805f76</testCaseGuid>
-</TestCaseEntity>

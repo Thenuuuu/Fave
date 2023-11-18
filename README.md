@@ -13,8 +13,9 @@ I have attached the report of the regression testing in the repo.
 
 For the bug tracking assumption, I have attached in the repo.
 
+For the api testing i have used postman and have attached the testing html report in the repo.
 
 
 
-For your information, this assessment is done by me (Thenmullai A/P Chandra Sekaran) entirely. Due to some technical problem, I had to use my brother's laptop to do the testing.
+For your kind information, this assessment is done by me (Thenmullai A/P Chandra Sekaran) entirely. Due to some technical problem, I had to use my brother's laptop to do the testing.
 

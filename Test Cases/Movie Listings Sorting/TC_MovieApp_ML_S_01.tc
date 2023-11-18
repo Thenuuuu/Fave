@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User able to view movie listing</description>
-   <name>TC_MovieApp_ML_S_01</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ab3d6f77-9daa-49f5-b8af-197e71fe7cdf</testCaseGuid>
-</TestCaseEntity>

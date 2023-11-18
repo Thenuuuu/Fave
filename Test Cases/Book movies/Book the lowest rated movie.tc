@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Book the lowest rated movie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e56a2381-ccfd-4993-b9cd-c9f49a1a8316</testCaseGuid>
+</TestCaseEntity>

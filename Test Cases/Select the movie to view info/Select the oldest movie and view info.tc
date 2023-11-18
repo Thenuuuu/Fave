@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select the oldest movie and view info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf48995e-ac94-408e-9313-eb5bc7560d55</testCaseGuid>
+</TestCaseEntity>

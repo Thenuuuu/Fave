@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression testing" time="636.854" tests="18" failures="2" errors="0">
+   <testsuite name="Regression testing" tests="18" failures="2" errors="0" time="636.854" skipped="0" timestamp="2023-11-18 23:19:37" hostname="Logen - Logen1609" id="Test Suites/Regression testing">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928"/>
+         <property name="logFiles" value="C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\appium.log, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-.png, keyes\keyes-.png, keyes\keyes-.png, keyes\keyes-sort release date accending.png, keyes\keyes-.png, keyes\keyes-sort release date accending.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-sort release date accending.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-sort release date accending.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321069201.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321114015.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321159667.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321204143.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-.png, keyes\keyes-Movie Info.png, keyes\keyes-.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321280742.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321324572.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321368900.png, keyes\keyes-sort release date accending.png, C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321413316.png"/>
+         <property name="hostName" value="Logen - Logen1609"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order" time="27.597" classname="Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:19:37 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order: Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order
+
+2023-11-18 23:19:37 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:19:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-18 23:19:40 - [MESSAGE][INFO] - Appium server started on port 57,741
+
+2023-11-18 23:19:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:19:59 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Title"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:20:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:20:01 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:20:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:20:02 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:20:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:20:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order" time="15.43" classname="Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:20:04 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order: Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order
+
+2023-11-18 23:20:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:14 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:15 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Title"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:20:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Title (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title (1)'
+
+2023-11-18 23:20:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title (1)'
+
+2023-11-18 23:20:17 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:20:18 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:20:18 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:20:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:20:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Movie Listings Sorting/Sort movie from highest popularity" time="15.685" classname="Test Cases/Movie Listings Sorting/Sort movie from highest popularity" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:20:20 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from highest popularity: Test Cases/Movie Listings Sorting/Sort movie from highest popularity
+
+2023-11-18 23:20:20 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:29 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:20:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:20:32 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:20:33 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:20:33 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:20:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:20:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Movie Listings Sorting/Sort movie from latest release date" time="13.422" classname="Test Cases/Movie Listings Sorting/Sort movie from latest release date" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:20:35 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from latest release date: Test Cases/Movie Listings Sorting/Sort movie from latest release date
+
+2023-11-18 23:20:35 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:44 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Release date"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date'
+
+2023-11-18 23:20:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date'
+
+2023-11-18 23:20:46 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:20:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:20:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("sort release date accending", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:20:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:20:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-sort release date accending.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Movie Listings Sorting/Sort movie from lowest popularity" time="13.469" classname="Test Cases/Movie Listings Sorting/Sort movie from lowest popularity" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:20:49 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from lowest popularity: Test Cases/Movie Listings Sorting/Sort movie from lowest popularity
+
+2023-11-18 23:20:49 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:20:58 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:20:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:20:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:20:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:21:00 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:21:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:21:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:21:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:21:02 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Movie Listings Sorting/Sort movies from oldest release date" time="13.815" classname="Test Cases/Movie Listings Sorting/Sort movies from oldest release date" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:21:02 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movies from oldest release date: Test Cases/Movie Listings Sorting/Sort movies from oldest release date
+
+2023-11-18 23:21:02 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:21:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:21:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:21:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:21:13 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Release date (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date (1)'
+
+2023-11-18 23:21:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date (1)'
+
+2023-11-18 23:21:13 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:21:15 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:21:15 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("sort release date accending", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:21:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:21:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-sort release date accending.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select the movie to view info/Select the first accending order movie and view info" time="16.843" classname="Test Cases/Select the movie to view info/Select the first accending order movie and view info" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:21:16 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the first accending order movie and view info: Test Cases/Select the movie to view info/Select the first accending order movie and view info
+
+2023-11-18 23:21:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from accending alphabetical order"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order' successfully
+
+2023-11-18 23:21:16 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order: Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order
+
+2023-11-18 23:21:16 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:21:26 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:21:26 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:21:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:21:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Title"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:21:29 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:21:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:21:29 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:21:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:21:31 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:21:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order' successfully
+
+2023-11-18 23:21:31 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:21:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:21:32 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:21:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:21:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select the movie to view info/Select the first decending order movie and view info" time="18.389" classname="Test Cases/Select the movie to view info/Select the first decending order movie and view info" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:21:33 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the first decending order movie and view info: Test Cases/Select the movie to view info/Select the first decending order movie and view info
+
+2023-11-18 23:21:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from decending alphabetical order"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order' successfully
+
+2023-11-18 23:21:33 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order: Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order
+
+2023-11-18 23:21:33 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:21:43 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:21:43 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:21:45 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Title"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:21:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title'
+
+2023-11-18 23:21:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Title (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title (1)'
+
+2023-11-18 23:21:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Title (1)'
+
+2023-11-18 23:21:46 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:21:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:21:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:21:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:21:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:21:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order' successfully
+
+2023-11-18 23:21:49 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:21:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:21:50 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:21:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:21:51 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select the movie to view info/Select the highest rated movie and view info" time="18.951" classname="Test Cases/Select the movie to view info/Select the highest rated movie and view info" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:21:51 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the highest rated movie and view info: Test Cases/Select the movie to view info/Select the highest rated movie and view info
+
+2023-11-18 23:21:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from highest popularity"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from highest popularity' successfully
+
+2023-11-18 23:21:52 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from highest popularity: Test Cases/Movie Listings Sorting/Sort movie from highest popularity
+
+2023-11-18 23:21:52 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:01 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:01 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:22:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:22:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:22:04 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:22:05 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:22:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:22:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from highest popularity' successfully
+
+2023-11-18 23:22:08 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select the movie to view info/Select the latest movie and view info" time="15.32" classname="Test Cases/Select the movie to view info/Select the latest movie and view info" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:22:10 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the latest movie and view info: Test Cases/Select the movie to view info/Select the latest movie and view info
+
+2023-11-18 23:22:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from latest release date"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from latest release date' successfully
+
+2023-11-18 23:22:10 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from latest release date: Test Cases/Movie Listings Sorting/Sort movie from latest release date
+
+2023-11-18 23:22:10 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:19 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Release date"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date'
+
+2023-11-18 23:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date'
+
+2023-11-18 23:22:22 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:22:23 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:22:23 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("sort release date accending", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:24 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-sort release date accending.png]]
+
+2023-11-18 23:22:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from latest release date' successfully
+
+2023-11-18 23:22:24 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:24 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:26 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select the movie to view info/Select the lowest rated movie and view info" time="15.809" classname="Test Cases/Select the movie to view info/Select the lowest rated movie and view info" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:22:26 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the lowest rated movie and view info: Test Cases/Select the movie to view info/Select the lowest rated movie and view info
+
+2023-11-18 23:22:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from lowest popularity"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from lowest popularity' successfully
+
+2023-11-18 23:22:26 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from lowest popularity: Test Cases/Movie Listings Sorting/Sort movie from lowest popularity
+
+2023-11-18 23:22:26 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:36 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:36 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:22:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:22:37 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:22:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:22:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:22:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from lowest popularity' successfully
+
+2023-11-18 23:22:40 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select the movie to view info/Select the oldest movie and view info" time="15.996" classname="Test Cases/Select the movie to view info/Select the oldest movie and view info" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:22:41 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the oldest movie and view info: Test Cases/Select the movie to view info/Select the oldest movie and view info
+
+2023-11-18 23:22:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movies from oldest release date"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movies from oldest release date' successfully
+
+2023-11-18 23:22:42 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movies from oldest release date: Test Cases/Movie Listings Sorting/Sort movies from oldest release date
+
+2023-11-18 23:22:42 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:51 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:22:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:22:52 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Release date (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date (1)'
+
+2023-11-18 23:22:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date (1)'
+
+2023-11-18 23:22:53 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:22:54 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:22:54 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("sort release date accending", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:56 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-sort release date accending.png]]
+
+2023-11-18 23:22:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movies from oldest release date' successfully
+
+2023-11-18 23:22:56 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:22:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:22:56 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:22:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:22:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book movies/Book the highest popularity movie" time="20.665" classname="Test Cases/Book movies/Book the highest popularity movie" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:22:57 - [TEST_CASE][PASSED] - Test Cases/Book movies/Book the highest popularity movie: Test Cases/Book movies/Book the highest popularity movie
+
+2023-11-18 23:22:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Select the movie to view info/Select the highest rated movie and view info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Select the movie to view info/Select the highest rated movie and view info' successfully
+
+2023-11-18 23:22:58 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the highest rated movie and view info: Test Cases/Select the movie to view info/Select the highest rated movie and view info
+
+2023-11-18 23:22:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from highest popularity"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from highest popularity' successfully
+
+2023-11-18 23:22:58 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from highest popularity: Test Cases/Movie Listings Sorting/Sort movie from highest popularity
+
+2023-11-18 23:22:58 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:23:08 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:23:08 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:23:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:23:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:23:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:23:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:23:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:23:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:23:12 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:23:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:23:14 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:23:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from highest popularity' successfully
+
+2023-11-18 23:23:14 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:23:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:23:15 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:23:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:23:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]
+
+2023-11-18 23:23:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Select the movie to view info/Select the highest rated movie and view info' successfully
+
+2023-11-18 23:23:16 - [TEST_STEP][PASSED] - tap(findTestObject("Book the movie/android.widget.Button - BOOK THE MOVIE button"), 0): Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:23:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:23:17 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(""): Screenshot is taken
+
+2023-11-18 23:23:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:23:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book movies/Book the highest rated movie" time="23.54" classname="Test Cases/Book movies/Book the highest rated movie" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:23:18 - [TEST_CASE][PASSED] - Test Cases/Book movies/Book the highest rated movie: Test Cases/Book movies/Book the highest rated movie
+
+2023-11-18 23:23:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Select the movie to view info/Select the highest rated movie and view info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Select the movie to view info/Select the highest rated movie and view info' successfully
+
+2023-11-18 23:23:18 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the highest rated movie and view info: Test Cases/Select the movie to view info/Select the highest rated movie and view info
+
+2023-11-18 23:23:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from highest popularity"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from highest popularity' successfully
+
+2023-11-18 23:23:18 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from highest popularity: Test Cases/Movie Listings Sorting/Sort movie from highest popularity
+
+2023-11-18 23:23:18 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:23:30 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:23:30 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:23:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:23:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:23:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:23:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:23:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity (1)'
+
+2023-11-18 23:23:33 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:23:35 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:23:35 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:23:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:23:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:23:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from highest popularity' successfully
+
+2023-11-18 23:23:37 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:23:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:23:37 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:23:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:23:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]
+
+2023-11-18 23:23:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Select the movie to view info/Select the highest rated movie and view info' successfully
+
+2023-11-18 23:23:40 - [TEST_STEP][PASSED] - tap(findTestObject("Book the movie/android.widget.Button - BOOK THE MOVIE button"), 0): Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:23:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:23:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:23:40 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(""): Screenshot is taken
+
+2023-11-18 23:23:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:23:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book movies/Book the latest released movie" time="44.447" classname="Test Cases/Book movies/Book the latest released movie" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Book movies/Book the latest released movie FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)&#xa;	at Book the latest released movie.run(Book the latest released movie:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-18 23:26:00 - [TEST_CASE][FAILED] - Test Cases/Book movies/Book the latest released movie: Test Cases/Book movies/Book the latest released movie FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the latest released movie.run(Book the latest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+2023-11-18 23:26:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from latest release date"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from latest release date' successfully
+
+2023-11-18 23:26:00 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from latest release date: Test Cases/Movie Listings Sorting/Sort movie from latest release date
+
+2023-11-18 23:26:00 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:26:09 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:26:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:26:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:26:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:26:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Release date"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date'
+
+2023-11-18 23:26:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:26:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date'
+
+2023-11-18 23:26:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:26:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:26:12 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("sort release date accending", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:26:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:26:14 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-sort release date accending.png]]
+
+2023-11-18 23:26:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from latest release date' successfully
+
+2023-11-18 23:26:14 - [TEST_STEP][FAILED] - tap(findTestObject("Book the movie/android.widget.Button - BOOK THE MOVIE button"), 0): Failed to tap on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the latest released movie.run(Book the latest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+2023-11-18 23:26:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:26:44 - [MESSAGE][FAILED] - Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+
+2023-11-18 23:26:44 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the latest released movie.run(Book the latest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321204143.png]]]]></system-out>
+         <system-err><![CDATA[2023-11-18 23:26:00 - [TEST_CASE][FAILED] - Test Cases/Book movies/Book the latest released movie: Test Cases/Book movies/Book the latest released movie FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the latest released movie.run(Book the latest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book movies/Book the lowest popularity movie" time="16.274" classname="Test Cases/Book movies/Book the lowest popularity movie" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:26:44 - [TEST_CASE][PASSED] - Test Cases/Book movies/Book the lowest popularity movie: Test Cases/Book movies/Book the lowest popularity movie
+
+2023-11-18 23:26:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Select the movie to view info/Select the lowest rated movie and view info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Select the movie to view info/Select the lowest rated movie and view info' successfully
+
+2023-11-18 23:26:44 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the lowest rated movie and view info: Test Cases/Select the movie to view info/Select the lowest rated movie and view info
+
+2023-11-18 23:26:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from lowest popularity"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from lowest popularity' successfully
+
+2023-11-18 23:26:45 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from lowest popularity: Test Cases/Movie Listings Sorting/Sort movie from lowest popularity
+
+2023-11-18 23:26:45 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:26:53 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:26:53 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:26:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:26:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:26:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:26:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:26:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:26:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:26:57 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:26:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:26:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:26:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:26:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from lowest popularity' successfully
+
+2023-11-18 23:26:58 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:26:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:26:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:26:58 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:26:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:27:00 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]
+
+2023-11-18 23:27:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Select the movie to view info/Select the lowest rated movie and view info' successfully
+
+2023-11-18 23:27:00 - [TEST_STEP][PASSED] - tap(findTestObject("Book the movie/android.widget.Button - BOOK THE MOVIE button"), 0): Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:27:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:27:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:27:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(""): Screenshot is taken
+
+2023-11-18 23:27:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:27:01 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book movies/Book the lowest rated movie" time="15.87" classname="Test Cases/Book movies/Book the lowest rated movie" status="PASSED">
+         <system-out><![CDATA[2023-11-18 23:27:01 - [TEST_CASE][PASSED] - Test Cases/Book movies/Book the lowest rated movie: Test Cases/Book movies/Book the lowest rated movie
+
+2023-11-18 23:27:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Select the movie to view info/Select the lowest rated movie and view info"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Select the movie to view info/Select the lowest rated movie and view info' successfully
+
+2023-11-18 23:27:01 - [TEST_CASE][PASSED] - Test Cases/Select the movie to view info/Select the lowest rated movie and view info: Test Cases/Select the movie to view info/Select the lowest rated movie and view info
+
+2023-11-18 23:27:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movie from lowest popularity"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from lowest popularity' successfully
+
+2023-11-18 23:27:01 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movie from lowest popularity: Test Cases/Movie Listings Sorting/Sort movie from lowest popularity
+
+2023-11-18 23:27:01 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:27:10 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:27:10 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:27:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:27:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:27:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Popularity"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:27:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Popularity'
+
+2023-11-18 23:27:12 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:27:13 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:27:13 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:27:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:27:14 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+2023-11-18 23:27:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movie from lowest popularity' successfully
+
+2023-11-18 23:27:14 - [TEST_STEP][PASSED] - tap(findTestObject("Select the first movie/Select the first movie"), 0): Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:27:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Select the first movie/Select the first movie'
+
+2023-11-18 23:27:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Movie Info", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:27:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:27:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Movie Info.png]]
+
+2023-11-18 23:27:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Select the movie to view info/Select the lowest rated movie and view info' successfully
+
+2023-11-18 23:27:15 - [TEST_STEP][PASSED] - tap(findTestObject("Book the movie/android.widget.Button - BOOK THE MOVIE button"), 0): Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:27:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button'
+
+2023-11-18 23:27:15 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(""): Screenshot is taken
+
+2023-11-18 23:27:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:27:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book movies/Book the oldest released movie" time="44.382" classname="Test Cases/Book movies/Book the oldest released movie" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Book movies/Book the oldest released movie FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)&#xa;	at Book the oldest released movie.run(Book the oldest released movie:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-18 23:29:29 - [TEST_CASE][FAILED] - Test Cases/Book movies/Book the oldest released movie: Test Cases/Book movies/Book the oldest released movie FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the oldest released movie.run(Book the oldest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+2023-11-18 23:29:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Movie Listings Sorting/Sort movies from oldest release date"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Movie Listings Sorting/Sort movies from oldest release date' successfully
+
+2023-11-18 23:29:29 - [TEST_CASE][PASSED] - Test Cases/Movie Listings Sorting/Sort movies from oldest release date: Test Cases/Movie Listings Sorting/Sort movies from oldest release date
+
+2023-11-18 23:29:29 - [TEST_STEP][PASSED] - startApplication("C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk", true): Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:29:38 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk'
+
+2023-11-18 23:29:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Sort movie/android.widget.TextView - Sort button"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:29:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:29:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Sort button'
+
+2023-11-18 23:29:39 - [TEST_STEP][PASSED] - tap(findTestObject("Sort movie/android.widget.TextView - Release date (1)"), 0): Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date (1)'
+
+2023-11-18 23:29:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:29:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sort movie/android.widget.TextView - Release date (1)'
+
+2023-11-18 23:29:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-11-18 23:29:41 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-11-18 23:29:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("sort release date accending", STOP_ON_FAILURE): Screenshot is taken
+
+2023-11-18 23:29:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-18 23:29:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-sort release date accending.png]]
+
+2023-11-18 23:29:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Movie Listings Sorting/Sort movies from oldest release date' successfully
+
+2023-11-18 23:29:43 - [TEST_STEP][FAILED] - tap(findTestObject("Book the movie/android.widget.Button - BOOK THE MOVIE button"), 0): Failed to tap on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the oldest released movie.run(Book the oldest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+2023-11-18 23:29:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-18 23:30:13 - [MESSAGE][FAILED] - Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+
+2023-11-18 23:30:13 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the oldest released movie.run(Book the oldest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Logen\\git\\Fave\\Reports\\20231118_231928\\Regression testing\\20231118_231928\\1700321413316.png]]]]></system-out>
+         <system-err><![CDATA[2023-11-18 23:29:29 - [TEST_CASE][FAILED] - Test Cases/Book movies/Book the oldest released movie: Test Cases/Book movies/Book the oldest released movie FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the oldest released movie.run(Book the oldest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-18 23:19:37 - [TEST_SUITE][FAILED] - Regression testing: Test Cases/Book movies/Book the latest released movie FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the latest released movie.run(Book the latest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[2023-11-18 23:19:37 - [TEST_SUITE][FAILED] - Regression testing: Test Cases/Book movies/Book the latest released movie FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Book the movie/android.widget.Button - BOOK THE MOVIE button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Book the latest released movie.run(Book the latest released movie:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1700320768283.run(TempTestSuite1700320768283.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

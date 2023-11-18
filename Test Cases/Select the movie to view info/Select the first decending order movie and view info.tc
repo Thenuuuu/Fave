@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select the first decending order movie and view info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75e5aae8-46c6-42cd-8519-5c223d3a9b04</testCaseGuid>
+</TestCaseEntity>

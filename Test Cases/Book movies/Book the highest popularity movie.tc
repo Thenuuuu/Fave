@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Book the highest popularity movie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f72bd5c7-dfd3-418c-96b7-2a3a197c2299</testCaseGuid>
+</TestCaseEntity>

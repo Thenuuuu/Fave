@@ -1,0 +1,104 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression testing,,,,2023-11-18 23:19:37,2023-11-18 23:30:13,10m - 36.854s,FAILED
+,,,,,,,
+Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order,,,,2023-11-18 23:19:37,2023-11-18 23:20:04,27.597s,PASSED
+"startApplication(""C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk"", true)",,Start Application,,2023-11-18 23:19:37,2023-11-18 23:19:59,22.158s,PASSED
+"tap(findTestObject(""Sort movie/android.widget.TextView - Sort button""), 0)",,Tap Sort button,,2023-11-18 23:19:59,2023-11-18 23:20:00,0.989s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Title""), 0)",,Tap on title accending,,2023-11-18 23:20:00,2023-11-18 23:20:01,0.972s,PASSED
+pressBack(),,Press back,,2023-11-18 23:20:01,2023-11-18 23:20:02,1.206s,PASSED
+"takeScreenshotAsCheckpoint("""", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:20:02,2023-11-18 23:20:04,1.993s,PASSED
+,,,,,,,
+Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order,,,,2023-11-18 23:20:04,2023-11-18 23:20:20,15.430s,PASSED
+"startApplication(""C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk"", true)",,Start Application,,2023-11-18 23:20:04,2023-11-18 23:20:14,9.908s,PASSED
+"tap(findTestObject(""Sort movie/android.widget.TextView - Sort button""), 0)",,Tap Sort button,,2023-11-18 23:20:14,2023-11-18 23:20:15,1.105s,PASSED
+"tap(findTestObject(""Sort movie/android.widget.TextView - Title""), 0)",,Tap on title ,,2023-11-18 23:20:15,2023-11-18 23:20:17,1.641s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Title (1)""), 0)",,Tap on title decending,,2023-11-18 23:20:17,2023-11-18 23:20:17,0.167s,PASSED
+pressBack(),,Press back,,2023-11-18 23:20:17,2023-11-18 23:20:18,1.086s,PASSED
+"takeScreenshotAsCheckpoint("""", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:20:18,2023-11-18 23:20:20,1.464s,PASSED
+,,,,,,,
+Test Cases/Movie Listings Sorting/Sort movie from highest popularity,,,,2023-11-18 23:20:20,2023-11-18 23:20:35,15.685s,PASSED
+"startApplication(""C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk"", true)",,Start Application,,2023-11-18 23:20:20,2023-11-18 23:20:29,9.313s,PASSED
+"tap(findTestObject(""Sort movie/android.widget.TextView - Sort button""), 0)",,Tap Sort button,,2023-11-18 23:20:29,2023-11-18 23:20:30,1.213s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Popularity""), 0)",,Tap Popularity,,2023-11-18 23:20:30,2023-11-18 23:20:32,1.636s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Popularity (1)""), 0)",,Tap Popularity decending,,2023-11-18 23:20:32,2023-11-18 23:20:32,0.127s,PASSED
+pressBack(),,Press back,,2023-11-18 23:20:32,2023-11-18 23:20:33,1.155s,PASSED
+"takeScreenshotAsCheckpoint("""", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:20:33,2023-11-18 23:20:35,2.151s,PASSED
+,,,,,,,
+Test Cases/Movie Listings Sorting/Sort movie from latest release date,,,,2023-11-18 23:20:35,2023-11-18 23:20:49,13.422s,PASSED
+"startApplication(""C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk"", true)",,Start Application,,2023-11-18 23:20:35,2023-11-18 23:20:44,8.917s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Sort button""), 0)",,Tap Sort button,,2023-11-18 23:20:44,2023-11-18 23:20:46,1.149s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Release date""), 0)",,Tap on latest release date ,,2023-11-18 23:20:46,2023-11-18 23:20:46,0.734s,PASSED
+pressBack(),,Press back,,2023-11-18 23:20:46,2023-11-18 23:20:47,1.152s,PASSED
+"takeScreenshotAsCheckpoint(""sort release date accending"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:20:47,2023-11-18 23:20:49,1.412s,PASSED
+,,,,,,,
+Test Cases/Movie Listings Sorting/Sort movie from lowest popularity,,,,2023-11-18 23:20:49,2023-11-18 23:21:02,13.469s,PASSED
+"startApplication(""C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk"", true)",,Start Application,,2023-11-18 23:20:49,2023-11-18 23:20:58,8.749s,PASSED
+"tap(findTestObject(""Sort movie/android.widget.TextView - Sort button""), 0)",,Tap Sort button,,2023-11-18 23:20:58,2023-11-18 23:20:59,1.495s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Popularity""), 0)",,Tap Popularity Accending,,2023-11-18 23:20:59,2023-11-18 23:21:00,0.764s,PASSED
+pressBack(),,Press back,,2023-11-18 23:21:00,2023-11-18 23:21:01,1.269s,PASSED
+"takeScreenshotAsCheckpoint("""", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:21:01,2023-11-18 23:21:02,1.130s,PASSED
+,,,,,,,
+Test Cases/Movie Listings Sorting/Sort movies from oldest release date,,,,2023-11-18 23:21:02,2023-11-18 23:21:16,13.815s,PASSED
+"startApplication(""C:\Users\Logen\Downloads\movie-app-release\movie-app-release.apk"", true)",,Start Application,,2023-11-18 23:21:02,2023-11-18 23:21:11,8.939s,PASSED
+"tap(findTestObject(""Object Repository/Sort movie/android.widget.TextView - Sort button""), 0)",,Tap Sort button,,2023-11-18 23:21:11,2023-11-18 23:21:13,1.347s,PASSED
+"tap(findTestObject(""Sort movie/android.widget.TextView - Release date (1)""), 0)",,Tap on release date from oldest,,2023-11-18 23:21:13,2023-11-18 23:21:13,0.781s,PASSED
+pressBack(),,Press back,,2023-11-18 23:21:13,2023-11-18 23:21:15,1.153s,PASSED
+"takeScreenshotAsCheckpoint(""sort release date accending"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:21:15,2023-11-18 23:21:16,1.520s,PASSED
+,,,,,,,
+Test Cases/Select the movie to view info/Select the first accending order movie and view info,,,,2023-11-18 23:21:16,2023-11-18 23:21:33,16.843s,PASSED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movie from accending alphabetical order""), [:], STOP_ON_FAILURE)",,Sort the first movie from the accending order,,2023-11-18 23:21:16,2023-11-18 23:21:31,14.452s,PASSED
+"tap(findTestObject(""Select the first movie/Select the first movie""), 0)",,Select the first movie from accending order,,2023-11-18 23:21:31,2023-11-18 23:21:32,1.164s,PASSED
+"takeScreenshotAsCheckpoint(""Movie Info"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:21:32,2023-11-18 23:21:33,1.147s,PASSED
+,,,,,,,
+Test Cases/Select the movie to view info/Select the first decending order movie and view info,,,,2023-11-18 23:21:33,2023-11-18 23:21:51,18.389s,PASSED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movie from decending alphabetical order""), [:], STOP_ON_FAILURE)",,Sort the first movie from the decending order,,2023-11-18 23:21:33,2023-11-18 23:21:49,15.924s,PASSED
+"tap(findTestObject(""Select the first movie/Select the first movie""), 0)",,Select the first movie from decending order,,2023-11-18 23:21:49,2023-11-18 23:21:50,1.173s,PASSED
+"takeScreenshotAsCheckpoint(""Movie Info"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:21:50,2023-11-18 23:21:51,1.210s,PASSED
+,,,,,,,
+Test Cases/Select the movie to view info/Select the highest rated movie and view info,,,,2023-11-18 23:21:51,2023-11-18 23:22:10,18.951s,PASSED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movie from highest popularity""), [:], STOP_ON_FAILURE)",,Sort the first movie from highest popularity,,2023-11-18 23:21:51,2023-11-18 23:22:08,16.209s,PASSED
+"tap(findTestObject(""Select the first movie/Select the first movie""), 0)",,Select the first movie from highest popularity,,2023-11-18 23:22:08,2023-11-18 23:22:09,1.143s,PASSED
+"takeScreenshotAsCheckpoint(""Movie Info"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:22:09,2023-11-18 23:22:10,1.526s,PASSED
+,,,,,,,
+Test Cases/Select the movie to view info/Select the latest movie and view info,,,,2023-11-18 23:22:10,2023-11-18 23:22:26,15.320s,PASSED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movie from latest release date""), [:], STOP_ON_FAILURE)",,Sort the movie from the latest release date,,2023-11-18 23:22:10,2023-11-18 23:22:24,13.872s,PASSED
+"tap(findTestObject(""Select the first movie/Select the first movie""), 0)",,Select the latest movie,,2023-11-18 23:22:24,2023-11-18 23:22:24,0.204s,PASSED
+"takeScreenshotAsCheckpoint(""Movie Info"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:22:24,2023-11-18 23:22:26,1.173s,PASSED
+,,,,,,,
+Test Cases/Select the movie to view info/Select the lowest rated movie and view info,,,,2023-11-18 23:22:26,2023-11-18 23:22:41,15.809s,PASSED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movie from lowest popularity""), [:], STOP_ON_FAILURE)",,Sort the first movie from lowest popularity,,2023-11-18 23:22:26,2023-11-18 23:22:40,13.775s,PASSED
+"tap(findTestObject(""Select the first movie/Select the first movie""), 0)",,Select the first movie from lowest popularity,,2023-11-18 23:22:40,2023-11-18 23:22:41,1.174s,PASSED
+"takeScreenshotAsCheckpoint(""Movie Info"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:22:41,2023-11-18 23:22:41,0.779s,PASSED
+,,,,,,,
+Test Cases/Select the movie to view info/Select the oldest movie and view info,,,,2023-11-18 23:22:41,2023-11-18 23:22:57,15.996s,PASSED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movies from oldest release date""), [:], STOP_ON_FAILURE)",,Sort the movie from the oldest release date,,2023-11-18 23:22:42,2023-11-18 23:22:56,14.073s,PASSED
+"tap(findTestObject(""Select the first movie/Select the first movie""), 0)",,Select the oldest movie,,2023-11-18 23:22:56,2023-11-18 23:22:56,0.817s,PASSED
+"takeScreenshotAsCheckpoint(""Movie Info"", STOP_ON_FAILURE)",,Take screenshot for validation,,2023-11-18 23:22:56,2023-11-18 23:22:57,1.045s,PASSED
+,,,,,,,
+Test Cases/Book movies/Book the highest popularity movie,,,,2023-11-18 23:22:57,2023-11-18 23:23:18,20.665s,PASSED
+"callTestCase(findTestCase(""Select the movie to view info/Select the highest rated movie and view info""), [:], STOP_ON_FAILURE)",,Select the highest popularity movie,,2023-11-18 23:22:58,2023-11-18 23:23:16,18.650s,PASSED
+"tap(findTestObject(""Book the movie/android.widget.Button - BOOK THE MOVIE button""), 0)",,Tap the book the movie button,,2023-11-18 23:23:16,2023-11-18 23:23:17,0.274s,PASSED
+"takeScreenshotAsCheckpoint("""")",,Take Screenshot for validation,,2023-11-18 23:23:17,2023-11-18 23:23:18,1.631s,PASSED
+,,,,,,,
+Test Cases/Book movies/Book the highest rated movie,,,,2023-11-18 23:23:18,2023-11-18 23:23:42,23.540s,PASSED
+"callTestCase(findTestCase(""Select the movie to view info/Select the highest rated movie and view info""), [:], STOP_ON_FAILURE)",,Select the highest rated movie,,2023-11-18 23:23:18,2023-11-18 23:23:40,21.610s,PASSED
+"tap(findTestObject(""Book the movie/android.widget.Button - BOOK THE MOVIE button""), 0)",,Tap the book the movie button,,2023-11-18 23:23:40,2023-11-18 23:23:40,0.242s,PASSED
+"takeScreenshotAsCheckpoint("""")",,Take Screenshot for validation,,2023-11-18 23:23:40,2023-11-18 23:23:42,1.616s,PASSED
+,,,,,,,
+Test Cases/Book movies/Book the latest released movie,,,,2023-11-18 23:26:00,2023-11-18 23:26:44,44.447s,FAILED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movie from latest release date""), [:], STOP_ON_FAILURE)",,Select the latest released movie,,2023-11-18 23:26:00,2023-11-18 23:26:14,13.736s,PASSED
+"tap(findTestObject(""Book the movie/android.widget.Button - BOOK THE MOVIE button""), 0)",,Tap the book the movie button,,2023-11-18 23:26:14,2023-11-18 23:26:44,30.701s,FAILED
+,,,,,,,
+Test Cases/Book movies/Book the lowest popularity movie,,,,2023-11-18 23:26:44,2023-11-18 23:27:01,16.274s,PASSED
+"callTestCase(findTestCase(""Select the movie to view info/Select the lowest rated movie and view info""), [:], STOP_ON_FAILURE)",,Select the lowest popularity movie,,2023-11-18 23:26:44,2023-11-18 23:27:00,15.225s,PASSED
+"tap(findTestObject(""Book the movie/android.widget.Button - BOOK THE MOVIE button""), 0)",,Tap the book the movie button,,2023-11-18 23:27:00,2023-11-18 23:27:00,0.158s,PASSED
+"takeScreenshotAsCheckpoint("""")",,Take Screenshot for validation,,2023-11-18 23:27:00,2023-11-18 23:27:01,0.813s,PASSED
+,,,,,,,
+Test Cases/Book movies/Book the lowest rated movie,,,,2023-11-18 23:27:01,2023-11-18 23:27:16,15.870s,PASSED
+"callTestCase(findTestCase(""Select the movie to view info/Select the lowest rated movie and view info""), [:], STOP_ON_FAILURE)",,Select the lowest rated movie,,2023-11-18 23:27:01,2023-11-18 23:27:15,14.704s,PASSED
+"tap(findTestObject(""Book the movie/android.widget.Button - BOOK THE MOVIE button""), 0)",,Tap the book the movie button,,2023-11-18 23:27:15,2023-11-18 23:27:15,0.147s,PASSED
+"takeScreenshotAsCheckpoint("""")",,Take Screenshot for validation,,2023-11-18 23:27:15,2023-11-18 23:27:16,0.933s,PASSED
+,,,,,,,
+Test Cases/Book movies/Book the oldest released movie,,,,2023-11-18 23:29:29,2023-11-18 23:30:13,44.382s,FAILED
+"callTestCase(findTestCase(""Movie Listings Sorting/Sort movies from oldest release date""), [:], STOP_ON_FAILURE)",,Select the oldest released movie,,2023-11-18 23:29:29,2023-11-18 23:29:43,13.698s,PASSED
+"tap(findTestObject(""Book the movie/android.widget.Button - BOOK THE MOVIE button""), 0)",,Tap the book the movie button,,2023-11-18 23:29:43,2023-11-18 23:30:13,30.674s,FAILED

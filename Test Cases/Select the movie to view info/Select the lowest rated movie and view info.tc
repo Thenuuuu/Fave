@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select the lowest rated movie and view info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a101b3ca-fbf3-49ca-ac5c-6635db8c223f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User should be able to sort the movie listing</description>
+   <name>TC_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>524df599-4063-4220-99c7-3dfc35a891f3</testCaseGuid>
+</TestCaseEntity>

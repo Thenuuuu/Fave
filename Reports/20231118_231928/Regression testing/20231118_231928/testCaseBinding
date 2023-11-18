@@ -1,0 +1,18 @@
+{"testCaseName":"Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order","testCaseId":"Test Cases/Movie Listings Sorting/Sort movie from accending alphabetical order","iterationVariableName":""}
+{"testCaseName":"Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order","testCaseId":"Test Cases/Movie Listings Sorting/Sort movie from decending alphabetical order","iterationVariableName":""}
+{"testCaseName":"Test Cases/Movie Listings Sorting/Sort movie from highest popularity","testCaseId":"Test Cases/Movie Listings Sorting/Sort movie from highest popularity","iterationVariableName":""}
+{"testCaseName":"Test Cases/Movie Listings Sorting/Sort movie from latest release date","testCaseId":"Test Cases/Movie Listings Sorting/Sort movie from latest release date","iterationVariableName":""}
+{"testCaseName":"Test Cases/Movie Listings Sorting/Sort movie from lowest popularity","testCaseId":"Test Cases/Movie Listings Sorting/Sort movie from lowest popularity","iterationVariableName":""}
+{"testCaseName":"Test Cases/Movie Listings Sorting/Sort movies from oldest release date","testCaseId":"Test Cases/Movie Listings Sorting/Sort movies from oldest release date","iterationVariableName":""}
+{"testCaseName":"Test Cases/Select the movie to view info/Select the first accending order movie and view info","testCaseId":"Test Cases/Select the movie to view info/Select the first accending order movie and view info","iterationVariableName":""}
+{"testCaseName":"Test Cases/Select the movie to view info/Select the first decending order movie and view info","testCaseId":"Test Cases/Select the movie to view info/Select the first decending order movie and view info","iterationVariableName":""}
+{"testCaseName":"Test Cases/Select the movie to view info/Select the highest rated movie and view info","testCaseId":"Test Cases/Select the movie to view info/Select the highest rated movie and view info","iterationVariableName":""}
+{"testCaseName":"Test Cases/Select the movie to view info/Select the latest movie and view info","testCaseId":"Test Cases/Select the movie to view info/Select the latest movie and view info","iterationVariableName":""}
+{"testCaseName":"Test Cases/Select the movie to view info/Select the lowest rated movie and view info","testCaseId":"Test Cases/Select the movie to view info/Select the lowest rated movie and view info","iterationVariableName":""}
+{"testCaseName":"Test Cases/Select the movie to view info/Select the oldest movie and view info","testCaseId":"Test Cases/Select the movie to view info/Select the oldest movie and view info","iterationVariableName":""}
+{"testCaseName":"Test Cases/Book movies/Book the highest popularity movie","testCaseId":"Test Cases/Book movies/Book the highest popularity movie","iterationVariableName":""}
+{"testCaseName":"Test Cases/Book movies/Book the highest rated movie","testCaseId":"Test Cases/Book movies/Book the highest rated movie","iterationVariableName":""}
+{"testCaseName":"Test Cases/Book movies/Book the latest released movie","testCaseId":"Test Cases/Book movies/Book the latest released movie","iterationVariableName":""}
+{"testCaseName":"Test Cases/Book movies/Book the lowest popularity movie","testCaseId":"Test Cases/Book movies/Book the lowest popularity movie","iterationVariableName":""}
+{"testCaseName":"Test Cases/Book movies/Book the lowest rated movie","testCaseId":"Test Cases/Book movies/Book the lowest rated movie","iterationVariableName":""}
+{"testCaseName":"Test Cases/Book movies/Book the oldest released movie","testCaseId":"Test Cases/Book movies/Book the oldest released movie","iterationVariableName":""}

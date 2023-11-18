@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select the highest rated movie and view info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9ecfd7c-e0de-40a0-8fe7-4b4effb8fff8</testCaseGuid>
+</TestCaseEntity>
